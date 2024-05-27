@@ -169,7 +169,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </div>
-
+{/* 
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
@@ -205,7 +205,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </Fade>
-      {/* 
+      
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
           {" "}
