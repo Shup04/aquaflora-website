@@ -90,47 +90,6 @@ const FeatureSection = () => {
         </div>
       </div>
 
-      
-
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
-          PAREMETER TRACKING
-        </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Stay on top of water quality
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          The current water parameter chart allows for adding nitrate, nitrite, ammonia and pH levels to a graph
-          for future reference. This allows you to check back to see if there was a recent parameter spike if you are 
-          experiencing issues with your tank. You will automatically be notified if any of these parameters are out of 
-          the safe range for your fish.
-        </p>
-      </div>
-
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
-          FISH LIST
-        </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Encyclopedia of 600+ fish
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          There is an integrated fish list section that displays basic information, along with a short description 
-          and image of over 600 commonly kept freshwater species. Every one of these fish can easily be added to 
-          any one of your current tanks, where the stocking will be automatically calculated.
-        </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md">
-            <a
-              href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
-            >
-              Send Enquiry
-            </a>
-          </div>
-        </div>
-      </div>
-
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
@@ -169,16 +128,58 @@ const FeatureSection = () => {
         </div>
       </Fade>
 
+      <div className="mt-10 px-8">
+        <h2 className="text-black text-4xl font-semibold opacity-70">
+          PARAMETER TRACKING
+        </h2>
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+          Graph your water parameters
+        </h3>
+        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+          The current water parameter chart allows for adding nitrate, nitrite, 
+          ammonia and pH levels to a graph for future reference. This allows 
+          you to check back to see if there was a recent parameter spike if you are 
+          experiencing issues with your tank. You will automatically be notified 
+          if any of these parameters are out of the safe range for your fish.
+        </p>
+      </div>
+
+      <div className="mt-10 px-8">
+        <h2 className="text-black text-4xl font-semibold opacity-70">
+          FISH LIST
+        </h2>
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+          Data on 600+ species
+        </h3>
+        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        There is an integrated fish list section that displays basic 
+        information, along with a short description and image of 
+        over 600 commonly kept freshwater species. Every one of these 
+        fish can easily be added to any one of your current tanks, 
+        where the stocking will be automatically calculated.
+        </p>
+        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+          <div className="rounded-md">
+            <a
+              href="/contact/"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+            >
+              Send Enquiry
+            </a>
+          </div>
+        </div>
+      </div>
+
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img className="transition ease-in-out hover:scale-105" alt="Image" src={Image1}></img>
+            <img alt="Image" src={Image1}></img>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img className="transition ease-in-out hover:scale-105" alt="Image" src={Image2}></img>
+            <img alt="Image" src={Image2}></img>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
-            <img className="transition ease-in-out hover:scale-105" alt="Image" src={Image3}></img>
+            <img alt="Image" src={Image3}></img>
           </div>
         </div>
       </Fade>

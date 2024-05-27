@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Fade duration={2200}>
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
-        <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-row lg:flex-row flex-col-reverse">
+        <div className="my-5 mx-auto max-w-7xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex flex-row lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
             <h1 className="text-black text-4xl font-semibold opacity-70">
               WELCOME TO AQUAFLORA
@@ -55,21 +55,14 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-2/5 my-4 flex lg:justify-end justify-center ">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-2/5 my-0 flex justify-center sm:hidden ">
             <img
-              className="rounded-xl w-3/4 lg:h-full h-auto object-cover"
+              className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={hero}
               alt=""
             ></img>
           </div>
-          
-          <div className="lg:inset-y-0 lg:right-0 lg:w-2/5 my-4 flex lg:justify-end justify-center sm:hidden">
-            <img
-              className="rounded-xl w-3/4 lg:h-full h-auto object-cover"
-              src={hero}
-              alt=""
-            ></img>
-          </div>
+
 
         </div>
       </div>
