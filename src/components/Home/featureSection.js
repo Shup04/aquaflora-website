@@ -115,10 +115,10 @@ const FeatureSection = () => {
           </div>
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-            <h2 className="text-white text-4xl">
+            <h2 className="text-black text-4xl">
             Built to be smooth and reliable.
             </h2>
-            <p className="mt-10 text-white opacity-70">
+            <p className="mt-10 text-black opacity-70">
             Aquaflora leverages the best tools in order to provide as smooth and reliable of an 
             experience as possible. The use of React native, paired with expo, firebase, and many other technologies
             allows for an experience that can only get better and better as feedback is recieved. The usage of firebase means

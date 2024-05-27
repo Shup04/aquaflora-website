@@ -9,14 +9,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="my-5 mx-auto max-w-7xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex flex-row lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-4xl font-semibold opacity-70">
+            <h1 className="text- text-4xl font-semibold opacity-70">
               WELCOME TO AQUAFLORA
             </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+            <h2 className="text- text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               Hi there!
             </h2>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Aquaflora is an aquarium managment mobile application that helps fish keepers manage notifications, water parameters, and more.
             </p>
 
@@ -55,7 +55,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-2/5 my-0 flex justify-center sm:hidden ">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-2/5 my-0 flex justify-center sm:hidden">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={hero}
