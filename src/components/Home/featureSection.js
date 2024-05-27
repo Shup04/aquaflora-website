@@ -90,87 +90,34 @@ const FeatureSection = () => {
         </div>
       </div>
 
-      <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
-            <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
-            </span>
-            <div className="mt-5">
-              <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
-                <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-            <h2 className="text-white text-4xl">
-              Start building amazing web experiences
-            </h2>
-            <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-          </div>
-        </div>
-      </Fade>
+      
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          PAREMETER TRACKING
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Stay on top of water quality
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          The current water parameter chart allows for adding nitrate, nitrite, ammonia and pH levels to a graph
+          for future reference. This allows you to check back to see if there was a recent parameter spike if you are 
+          experiencing issues with your tank. You will automatically be notified if any of these parameters are out of 
+          the safe range for your fish.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          FISH LIST
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Encyclopedia of 600+ fish
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          There is an integrated fish list section that displays basic information, along with a short description 
+          and image of over 600 commonly kept freshwater species. Every one of these fish can easily be added to 
+          any one of your current tanks, where the stocking will be automatically calculated.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -185,15 +132,53 @@ const FeatureSection = () => {
       </div>
 
       <Fade bottom cascade>
+        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
+          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+            <span className="text-black font-semibold font-montserrat text-4xl">
+              TECH STACK
+            </span>
+            <div className="mt-5">
+              <div>
+                <p className="text-black text-2xl">React Native 18+</p>
+                <p className="text-black opacity-50 text-sm">Create powerful mobile apps.</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Expo SDK 45+</p>
+                <p className="text-black opacity-50 text-sm">Streamlined development & deployment.</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Firebase</p>
+                <p className="text-black opacity-50 text-sm">
+                  Seamless authentication, storage, & more.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+            <h2 className="text-white text-4xl">
+            Built to be smooth and reliable.
+            </h2>
+            <p className="mt-10 text-white opacity-70">
+            Aquaflora leverages the best tools in order to provide as smooth and reliable of an 
+            experience as possible. The use of React native, paired with expo, firebase, and many other technologies
+            allows for an experience that can only get better and better as feedback is recieved. The usage of firebase means
+            the user doesnt have to worry about data security, as all authentication is handles on their servers, not within the app.
+            </p>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image1}></img>
+            <img className="transition ease-in-out hover:scale-105" alt="Image" src={Image1}></img>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image2}></img>
+            <img className="transition ease-in-out hover:scale-105" alt="Image" src={Image2}></img>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
-            <img alt="Image" src={Image3}></img>
+            <img className="transition ease-in-out hover:scale-105" alt="Image" src={Image3}></img>
           </div>
         </div>
       </Fade>
