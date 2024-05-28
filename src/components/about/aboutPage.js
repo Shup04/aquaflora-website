@@ -18,7 +18,7 @@ const WorkPage = () => {
             <img src={Image3} alt="image"></img>
           </div>
         </div>
-      </Fade> */}
+      </Fade> 
 
       <Fade bottom cascade>
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
@@ -40,24 +40,36 @@ const WorkPage = () => {
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
         </div>
-      </Fade>
+      </Fade>*/}
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Time to lock new speeds
+          About Aquaflora
         </h3>
 
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          The goal was initially to create a mobile app for managing tank reminders, 
+          but it has since grown into a larger project. Now it is able to track water parameters as 
+          you test, aswell as a list of more than 600 commonly kept aquarium fish species. There is alot 
+          of repeat questions in this hobby, so there is a custom made AI chatbot to help answer 
+          generic questions.
+
+          Once the app is released, I will continue to work on adding more features, increasing user 
+          experience, and making current features more reliable and robust.
+        </p>
+      </div>
+      <div className="mt-10 px-8">
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+          About The Developer
+        </h3>
+
+        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+          Most importantly, I am a hobbiest aquarist and have been for over 5 years. I 
+          have kept a a variety of tanks with animals ranging from shrimp, snails, and fish, to frogs. 
+          I am 20 years old, taking my bachelor in software engineering, and have been programming 
+          for a long time. I was getting frustrated with the lack of good apps for managing my tanks, and 
+          frequently forgetting maintenance tasks. Because of this, I decided to make my own app to 
+          take care of that. I hope this app can help as many people with the same issue as possible.
         </p>
       </div>
     </div>
