@@ -10,12 +10,9 @@ const Footer = () => {
         <div className="footer bg-gradient-to-r from-pink to-purple p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
+              {/* <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img> */}
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
-                <br></br>
-                built with Gatsby.
+                
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
@@ -25,18 +22,18 @@ const Footer = () => {
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                    Aquaflora
                   </a>
 
                   <a
                     className="text-black font-semibold ml-1"
                     target="_blank"
-                    href="https://travislord.xyz"
+                    href="https://github.com/Shup04"
                   >
-                    By TL
+                    By BS
                   </a>
                   <a
-                    href="https://github.com/lilxyzz/holo-theme"
+                    href="https://github.com/Shup04"
                     target="_blank"
                   >
                     <img
@@ -55,16 +52,10 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
+                  <Link to="/features">Features</Link>
+                </li>
+                <li>
                   <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/gallery">Gallery</Link>
-                </li>{" "}
-                <li>
-                  <Link to="/blog">Blog</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
