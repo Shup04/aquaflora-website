@@ -91,7 +91,7 @@ const FeatureSection = () => {
       </div>
       
 
-      <div style={{backgroundColor:'green'}} className="justify-center mt-10 px-8">
+      <div style={{marginTop:100, marginBottom:100}} className="w-4/5 mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           PARAMETER TRACKING
         </h2>
@@ -107,7 +107,7 @@ const FeatureSection = () => {
         </p>
       </div>
 
-      <div className="mt-10 px-8">
+      <div className="w-4/5 mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           FISH LIST
         </h2>
@@ -121,7 +121,7 @@ const FeatureSection = () => {
         fish can easily be added to any one of your current tanks, 
         where the stocking will be automatically calculated.
         </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div style={{marginBottom:100}} className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
               href="/contact/"
