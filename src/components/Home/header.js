@@ -8,7 +8,7 @@ const Header = () => {
     <Fade duration={2200}>
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="my-5 mx-auto max-w-7xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex flex-row lg:flex-row flex-col-reverse">
-          <div className="text-center lg:text-left flex flex-col justify-center">
+          <div className="w-1/2 text-center lg:text-left flex flex-col justify-center">
             <h1 className="text- text-4xl font-semibold opacity-70">
               WELCOME TO AQUAFLORA
             </h1>
