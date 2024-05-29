@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade"
 
 const WorkPage = () => {
   return (
-    <div className="max-w-7xl mx-auto mt-10">
+    <div style={{marginBottom: 200}} className="max-w-7xl mx-auto mt-10">
       {/* <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row mb-5 max-h-80">
           <div className="w-2/4 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-full lg:w-full">
