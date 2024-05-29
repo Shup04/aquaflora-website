@@ -23,8 +23,8 @@ module.exports = {
       transparent: colors.transparent,
     },
     screens: {
-      xxs: "320px",
-      xs: "425px",
+      //xxs: "320px",
+      //xs: "425px",
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 

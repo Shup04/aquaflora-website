@@ -12,11 +12,11 @@ const Header = () => {
             <h1 className="text-4xl font-semibold opacity-70">
               WELCOME TO AQUAFLORA
             </h1>
-            <h2 className="text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+            <h2 className="text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold">
               Hi there!
             </h2>
 
-            <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 opacity-70">
               Aquaflora is an aquarium managment mobile application that helps fish keepers manage notifications, water parameters, and more.
             </p>
 
@@ -55,7 +55,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="justify-self-end lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex sm:hidden">
+          <div className="justify-self-end lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg:block">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={hero}
