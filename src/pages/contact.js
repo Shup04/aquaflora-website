@@ -20,12 +20,13 @@ const Contact = () => {
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
             <h1 className="text-3xl text-white">CONTACT HOLO</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+              Contact Me
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
+              Feel free to ask any questions or share your thoughts. 
+              I will try to reply as soon as possible. I would love to hear from you.
             </p>
-
+          {/*
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
               <div className="flex flex-wrap">
                 <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
@@ -148,6 +149,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+          */}
             <form className="mt-5" name="contact" method="POST" netlify>
               <div className="flex xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
@@ -162,7 +164,7 @@ const Contact = () => {
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
                   <label>
                     <Input
-                      placeholder="Your Email"
+                      placeholder="* Your Email"
                       type="email"
                       name="email"
                     ></Input>
@@ -182,7 +184,6 @@ const Contact = () => {
                 </div>
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
                   <label>
-                    {" "}
                     <Input
                       placeholder="Your Phone"
                       type="phone"
@@ -191,6 +192,7 @@ const Contact = () => {
                   </label>
                 </div>
               </div>
+              
               <label>
                 <textarea
                   className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
