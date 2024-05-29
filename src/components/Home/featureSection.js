@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
+import HeroImage from "../../images/fishPortrait.png"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
@@ -35,11 +35,11 @@ const FeatureSection = () => {
 */}
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
-          <div className="lg:w-1/2 my-4">
+        <div className="lg:inset-y-0 lg:right-0 lg:w-2/5 my-0 flex justify-center lg:flex sm:hidden">
             <img
-              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+              className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={HeroImage}
-              alt="HeroImage"
+              alt=""
             ></img>
           </div>
 
