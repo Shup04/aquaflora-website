@@ -43,7 +43,7 @@ const FeatureSection = () => {
             ></img>
           </div>
 
-          <div className="w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
+          <div className="w-auto sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">EFFICIENCY</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
               Amplify your time
