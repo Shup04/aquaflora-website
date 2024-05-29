@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade"
 import HeroImage from "../../images/fishPortrait.png"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
 
 const FeatureSection = () => {
   return (
