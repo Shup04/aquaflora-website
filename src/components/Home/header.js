@@ -12,7 +12,7 @@ const Header = () => {
             <h1 className="text-4xl font-semibold opacity-70">
               WELCOME TO AQUAFLORA
             </h1>
-            <h2 className="text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold">
+            <h2 style={{lineHeight:1.2}} className="text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold">
               Hi there!
             </h2>
 
