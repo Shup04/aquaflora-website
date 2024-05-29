@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-transparent">
       <div className="max-w-6xl mx-auto px-3 py-5 rounded-md">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between md:h-16 h-4">
           <div className="w-full justify-between flex items-center">
             <a
               className="text-black flex-shrink-0 font-montserrat font-semibold"
