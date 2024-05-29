@@ -53,7 +53,7 @@ const Navbar = () => {
                 */}
                 <div className="items-center">
                   <a
-                    href="tel:#"
+                    href="/contact"
                     className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-black rounded-lg border border-purple hover:text-white border-black  hover:bg-purple"
                   >
                     Contact
