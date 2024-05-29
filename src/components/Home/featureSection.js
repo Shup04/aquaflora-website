@@ -9,7 +9,7 @@ import Image3 from "../../images/3D-liquid-abstract-3.webp"
 
 const FeatureSection = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-6xl mx-auto">
 {/* 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
@@ -33,8 +33,8 @@ const FeatureSection = () => {
         </div>
       </Fade>
 */}
-      <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
-        <div className=" justify-center mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+      <div className="max-w-6xl mx-auto lg:px-6 md:px-3">
+        <div className="justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex sm:hidden">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
@@ -91,7 +91,7 @@ const FeatureSection = () => {
       </div>
       
 
-      <div className="mt-10 px-8">
+      <div style={{backgroundColor:'green'}} className="justify-center mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           PARAMETER TRACKING
         </h2>

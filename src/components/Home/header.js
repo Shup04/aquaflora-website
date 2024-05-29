@@ -6,13 +6,13 @@ import hero from "../../images/tankscreenPortrait.png"
 const Header = () => {
   return (
     <Fade duration={2200}>
-      <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
-        <div className="my-5 mx-auto max-w-7xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-center flex-row lg:flex-row flex-col-reverse">
+      <div className="max-w-6xl mx-auto lg:px-6 md:px-3">
+        <div className="my-5 mx-auto max-w-6xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-between flex-row lg:flex-row flex-col-reverse">
           <div className="w-1/2 text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text- text-4xl font-semibold opacity-70">
+            <h1 className="text-4xl font-semibold opacity-70">
               WELCOME TO AQUAFLORA
             </h1>
-            <h2 className="text- text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+            <h2 className="text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               Hi there!
             </h2>
 
@@ -55,7 +55,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex sm:hidden">
+          <div className="justify-self-end lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex sm:hidden">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={hero}
