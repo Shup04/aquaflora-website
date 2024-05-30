@@ -67,8 +67,8 @@ const FeatureSection = () => {
       </div>
       
 
-      <div style={{marginTop:100, marginBottom:100}} className="w-4/5 mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
+      <div style={{marginTop:100, marginBottom:100}} className="w-full lg:w-4/5 mt-10 px-8">
+        <h2 className="text-black text-4xl font-semibold opacity-70 mt-100">
           PARAMETER TRACKING
         </h2>
         <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">

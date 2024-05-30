@@ -6,7 +6,7 @@ import hero from "../../images/tankscreenPortrait.png"
 const Header = () => {
   return (
     <Fade duration={2200}>
-      <div className="max-w-6xl mx-auto lg:px-6 md:px-3">
+      <div className="max-w-6xl mx-auto lg:px-6 md:px-3 md:pb-0 pb-100">
         <div className="my-5 mx-auto max-w-6xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-between flex-row lg:flex-row flex-col-reverse">
           <div style={{marginBottom:0}} className="w-auto sm:mt-10 text-center lg:text-left flex flex-col justify-center">
             <h1 className="text-4xl font-semibold opacity-70">
