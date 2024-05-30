@@ -10,6 +10,8 @@ module.exports = {
         notoserif: ["Noto Serif", "sans-serif"],
       },
       spacing: {
+        25: "6.25rem",
+        50: "12.5rem",
         100: "25rem",
         125: "30rem",
         150: "35rem",
