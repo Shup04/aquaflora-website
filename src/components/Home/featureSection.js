@@ -33,7 +33,7 @@ const FeatureSection = () => {
       </Fade>
 */}
       <div className="max-w-6xl mx-auto lg:px-6 md:px-3">
-        <div className="justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+        <div className="mb-50 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
@@ -83,7 +83,7 @@ const FeatureSection = () => {
         </p>
       </div>
 
-      <div className="w-4/5 mt-10 px-8">
+      <div className="mb-50 w-4/5 mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           FISH LIST
         </h2>
@@ -100,10 +100,10 @@ const FeatureSection = () => {
         <div style={{marginBottom:100}} className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
-              href="/contact/"
+              href="/features"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              View More
             </a>
           </div>
         </div>
