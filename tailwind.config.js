@@ -9,6 +9,12 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         notoserif: ["Noto Serif", "sans-serif"],
       },
+      spacing: {
+        100: "25rem",
+        125: "30rem",
+        150: "35rem",
+        175: "40rem",
+      }
     },
     colors: {
       black: colors.black,
@@ -31,7 +37,7 @@ module.exports = {
       md: "750px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "800px",
+      lg: "831px", // added 1 because text was collapsing at 830
       // => @media (min-width: 1024px) { ... }
 
       xl: "1280px",

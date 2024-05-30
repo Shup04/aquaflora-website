@@ -55,7 +55,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="justify-self-end lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex">
+          <div className="justify-self-end lg:inset-y-0 lg:right-0 md:w-1/3 my-0 flex justify-center lg:flex">
             <img
               className="rounded-xl w-2/3 lg:w-full lg:h-full h-auto object-cover"
               src={hero}

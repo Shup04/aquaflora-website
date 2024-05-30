@@ -48,7 +48,7 @@ const FeatureSection = () => {
               Amplify your time
             </h3>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
+            <p className="text-black font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
               One of the main goals is to help fishkeepers save time on the boring stuff, by supplying a 'hub' for water parameters, reminders, tank stocking, & more.
             </p>
 
@@ -68,13 +68,13 @@ const FeatureSection = () => {
       
 
       <div style={{marginTop:100, marginBottom:100}} className="w-full lg:w-4/5 mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70 mt-100">
+        <h2 className="text-black text-4xl font-semibold opacity-70">
           PARAMETER TRACKING
         </h2>
         <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Graph your water parameters
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-black font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           The current water parameter chart allows for adding nitrate, nitrite, 
           ammonia and pH levels to a graph for future reference. This allows 
           you to check back to see if there was a recent parameter spike if you are 
