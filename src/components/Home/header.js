@@ -16,7 +16,7 @@ const Header = () => {
               Hi there!
             </h2>
 
-            <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 opacity-70">
+            <p className="mt-3 font-montserrat text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 opacity-70">
               Aquaflora is an aquarium managment mobile application that helps fish keepers manage notifications, water parameters, and more.
             </p>
 
