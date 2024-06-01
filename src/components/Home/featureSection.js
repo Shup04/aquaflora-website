@@ -44,11 +44,11 @@ const FeatureSection = () => {
 
           <div className="w-auto sm:text-center lg:text-right flex flex-col justify-center">
             <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">EFFICIENCY</h2>
-            <h3 style={{lineHeight:1.2}} className=" text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
               Amplify your time
             </h3>
 
-            <p className="text-black font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
+            <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
               One of the main goals is to help fishkeepers save time on the boring stuff, by supplying a 'hub' for water parameters, reminders, tank stocking, & more.
             </p>
 
@@ -74,7 +74,7 @@ const FeatureSection = () => {
         <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Graph your water parameters
         </h3>
-        <p className="text-black font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-black font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           The current water parameter chart allows for adding nitrate, nitrite, 
           ammonia and pH levels to a graph for future reference. This allows 
           you to check back to see if there was a recent parameter spike if you are 
@@ -90,7 +90,7 @@ const FeatureSection = () => {
         <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Data on 600+ species
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-black font-montserrat opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
         There is an integrated fish list section that displays basic 
         information, along with a short description and image of 
         over 600 commonly kept freshwater species. Every one of these 
@@ -111,34 +111,34 @@ const FeatureSection = () => {
 
 
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+        <div className="mt-10 flex flex-col justify-space xxs:flex-col xs:flex-col sm:flex-row">
+          <div className="w-auto bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
               TECH STACK
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black text-2xl">React Native 18+</p>
-                <p className="text-black opacity-50 text-sm">Create powerful mobile apps.</p>
+                <p className="text-black font-montserrat text-2xl">React Native 18+</p>
+                <p className="text-black font-montserrat opacity-50 text-sm">Create powerful mobile apps.</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Expo SDK 45+</p>
-                <p className="text-black opacity-50 text-sm">Streamlined development & deployment.</p>
+                <p className="text-black font-montserrat text-2xl">Expo SDK 45+</p>
+                <p className="text-black font-montserrat opacity-50 text-sm">Streamlined development & deployment.</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Firebase</p>
-                <p className="text-black opacity-50 text-sm">
+                <p className="text-black font-montserrat text-2xl">Firebase</p>
+                <p className="text-black font-montserrat opacity-50 text-sm">
                   Seamless authentication, storage, & more.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+          <div className="w-auto bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
             Built to be smooth and reliable.
             </h2>
-            <p className="mt-10 text-white opacity-70">
+            <p className="mt-10 font-montserrat text-white opacity-70">
             Aquaflora leverages the best tools in order to provide as smooth and reliable of an 
             experience as possible. The use of React native, paired with expo, firebase, and many other technologies
             allows for an experience that can only get better and better as feedback is recieved. The usage of firebase means
