@@ -97,35 +97,23 @@ const Navbar = () => {
             </a>
             <a
               className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/about"
+              href="/features"
             >
-              About
+              Features
             </a>
 
             <a
               className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/gallery"
+              href="/about"
             >
-              Gallery
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/blog"
-            >
-              Blog
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/contact"
-            >
-              Contact
+              About
             </a>
             <div className="items-center mt-20 py-3">
               <a
-                href="tel:#"
+                href="/contact"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
               >
-                Call Us Now
+                Contact
               </a>
             </div>
           </div>
