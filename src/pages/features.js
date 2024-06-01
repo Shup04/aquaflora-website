@@ -21,7 +21,12 @@ const featuresData = [
   },
   {
     title: 'Water Parameter Tracking',
-    description: 'Description for feature three. Highlight the key aspects and benefits of this feature.',
+    description: 'Users can save measures parameters for nitrate, nitrite, pH, and ammonia. If current parameters are detected to be above the safe range, you will get an alert on the respective tank profile. This is a great tool for checking to see if there was a past nutrient spike in the case that one of your fish seems sick.',
+    image: featureImage,
+  },
+  {
+    title: 'Information Center',
+    description: 'A great place to go for new aquarists to quickly learn about the hobby. The information center has a list of common fish diseases, types of equipment, maintenance strategies, etc. Each of these lists has a short description, in the future, links to extra resources will be included. This is a great place to start for new aquarists to learn about the hobby and what they might be interested in keeping.',
     image: featureImage,
   },
 ];
@@ -31,7 +36,7 @@ const FeaturesPage = () => {
       <Layout>
         <header className="bg-gray-100 text-center py-10">
           <h1 className="text-black text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">Our Features</h1>
-          <p className="mt-4 text-xl">Explore the amazing features that make our product stand out.</p>
+          <h1 className="mt-4 text-xl">Aquaflora has many useful features tailored to hobbiest aquarists.</h1>
         </header>
         <div className="max-w-6xl mx-auto mt-10">
 
@@ -70,8 +75,18 @@ const FeaturesPage = () => {
                     <img src={featuresData[3].image} alt='title' className="w-full h-auto rounded-lg" />
                 </div>
                 <div className="w-2/3 p-4">
-                    <h2 style={{lineHeight:1.2}} className="text-black text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[1].title}</h2>
+                    <h2 style={{lineHeight:1.2}} className="text-black text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[3].title}</h2>
                     <p className="text-lg opacity-70">{featuresData[3].description}</p>
+                </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center mb-10">
+                <div className="w-2/3 p-4">
+                    <h2 style={{lineHeight:1.2}} className="text-black text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[4].title}</h2>
+                    <p className="text-lg opacity-70">{featuresData[4].description}</p>
+                </div>
+                <div className="mx-auto w-1/3 md:block p-4 hidden">
+                    <img src={featuresData[4].image} alt='title' className="w-full h-auto rounded-lg" />
                 </div>
             </div>
         </div>
