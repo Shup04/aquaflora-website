@@ -8,16 +8,20 @@ const Header = () => {
     <Fade duration={2200}>
       <div className="max-w-6xl mx-auto lg:px-6 md:px-3 lg:py-0 py-0 sm:py-50">
         <div className="my-5 mx-auto max-w-6xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-between flex-row lg:flex-row flex-col-reverse">
-          <div style={{marginBottom:0}} className="w-auto sm:mt-10 text-center lg:text-left flex flex-col justify-center">
+          <div className="w-2/3 sm:mt-10 text-center lg:text-left flex flex-col justify-center">
+            
             <h1 className="text-4xl font-semibold opacity-70">
-              WELCOME TO AQUAFLORA
+              Welcome to Aquaflora
             </h1>
-            <h2 style={{lineHeight:1.2}} className="text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold">
-              Hi there!
+
+            <h2 style={{lineHeight:1.2}} className="text-gradient bg-gradient-to-r from-pink to-purple text-5xl font-bold">
+              Aquarium Managment Mobile App
             </h2>
+            
+
 
             <p className="mt-3 font-montserrat text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 opacity-70">
-              Aquaflora is an aquarium managment mobile application that helps fish keepers manage notifications, water parameters, and more.
+            That helps fish keepers manage notifications, water parameters, and more.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

@@ -45,11 +45,11 @@ const FeatureSection = () => {
           <div className="w-auto sm:text-center lg:text-right flex flex-col justify-center">
             <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">EFFICIENCY</h2>
             <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Amplify your time
+              Effortless Organization
             </h3>
 
             <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
-              One of the main goals is to help fishkeepers save time on the boring stuff, by supplying a 'hub' for water parameters, reminders, tank stocking, & more.
+            Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can manage all your tanks' details in one place, saving you time and effort so you can focus more on enjoying your hobby.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
