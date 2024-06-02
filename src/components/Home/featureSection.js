@@ -8,7 +8,7 @@ import Image2 from "../../images/3D-liquid-abstract.webp"
 
 const FeatureSection = () => {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className=" max-w-6xl mx-auto">
 {/* 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
@@ -32,7 +32,7 @@ const FeatureSection = () => {
         </div>
       </Fade>
 */}
-      <div className="mt-50 sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
+      <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
         <div className="mb-50 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
             <img
@@ -42,15 +42,27 @@ const FeatureSection = () => {
             ></img>
           </div>
 
-          <div className="w-auto sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">EFFICIENCY</h2>
-            <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Effortless Organization
-            </h3>
+          <div className="w-2/3 sm:text-center lg:text-right flex flex-col justify-center">
+            <div className="mb-10">
+              <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">Effortless Organization</h2>
+              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+                Tank Profiles
+              </h3>
+              <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
+              Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can effortlessly manage your tanks' stocking, maintenance, parameters, all in one place, saving you time and effort so you can focus more on enjoying your hobby.
+              </p>
+            </div>
 
-            <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
-            Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can manage all your tanks' details in one place, saving you time and effort so you can focus more on enjoying your hobby.
-            </p>
+            <div className="">
+            <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">Peace of Mind</h2>
+              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+                Automatic Alerts
+              </h3>
+              <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
+              Simplify your tank maintenance routines with detailed profiles and reminders. AquaFlora helps you keep track of essential tasks, ensuring nothing is overlooked.
+              </p>
+            </div>
+            
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
               <div className="rounded-md">
@@ -67,7 +79,7 @@ const FeatureSection = () => {
       </div>
       
 
-      <div style={{marginTop:100, marginBottom:100}} className="w-full lg:w-4/5 mt-10 px-8">
+      <div className="w-full lg:w-4/5 mt-50 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           PARAMETER TRACKING
         </h2>

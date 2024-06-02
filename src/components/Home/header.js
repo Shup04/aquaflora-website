@@ -59,9 +59,9 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="justify-self-end lg:inset-y-0 lg:right-0 lg:w-1/3 block lg:block sm:hidden my-0 flex justify-center lg:flex">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
             <img
-              className="rounded-xl w-2/3 lg:w-full lg:h-full h-auto object-cover"
+              className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={hero}
               alt=""
             ></img>
