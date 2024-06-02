@@ -30,7 +30,7 @@ const Header = () => {
                   href="/features"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  See Features
+                  Features
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -53,7 +53,7 @@ const Header = () => {
                   href="/about"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  Get To Know Me
+                  Get to know me
                 </a>
               </div>
             </div>
