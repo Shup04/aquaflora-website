@@ -22,21 +22,21 @@ const FeatureSection = () => {
 
           <div className="w-2/3 sm:text-center lg:text-right flex flex-col justify-center">
             <div className="mb-10">
-              <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">Effortless Organization</h2>
-              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h2 style={{marginBottom:0}} className="text-primaryText text-4xl font-semibold opacity-70">Effortless Organization</h2>
+              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Tank Profiles
               </h3>
-              <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
+              <p className="text-primaryText font-montserrat font-normal mt-3 text-base text-primaryText-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
               Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can effortlessly manage your tanks' stocking, maintenance, parameters, all in one place, saving you time and effort so you can focus more on enjoying your hobby.
               </p>
             </div>
 
             <div className="">
-            <h2 style={{marginBottom:0}} className="text-black text-4xl font-semibold opacity-70">Peace of Mind</h2>
-              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h2 style={{marginBottom:0}} className="text-primaryText text-4xl font-semibold opacity-70">Peace of Mind</h2>
+              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Automatic Alerts
               </h3>
-              <p className="text-black font-montserrat font-normal mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
+              <p className="text-primaryText font-montserrat font-normal mt-3 text-base text-primaryText-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 opacity-70">
               Simplify your tank maintenance routines with detailed profiles and reminders. AquaFlora helps you keep track of essential tasks, ensuring nothing is overlooked.
               </p>
             </div>
@@ -46,7 +46,7 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="/contact/"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Contact
                 </a>
@@ -64,13 +64,13 @@ const FeatureSection = () => {
 
           <div className="w-2/3 sm:text-center lg:text-left flex flex-col justify-center">
             <div className="mb-10">
-              <h2 className="text-black text-4xl font-semibold opacity-70">
+              <h2 className="text-primaryText text-4xl font-semibold opacity-70">
                 PARAMETER TRACKING
               </h2>
-              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Graph Your Parameters
               </h3>
-              <p className="text-black font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+              <p className="text-primaryText font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
                 The current water parameter chart allows for adding nitrate, nitrite, 
                 ammonia and pH levels to a graph for future reference. This allows 
                 you to check back to see if there was a recent parameter spike if you are 
@@ -80,13 +80,13 @@ const FeatureSection = () => {
             </div>
 
             <div className="">
-              <h2 className="text-black text-4xl font-semibold opacity-70">
+              <h2 className="text-primaryText text-4xl font-semibold opacity-70">
                 FISH LIST
               </h2>
-              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Data on 600+ species
               </h3>
-              <p className="text-black font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+              <p className="text-primaryText font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
                 There is an integrated fish list section that displays basic 
                 information, along with a short description and image of 
                 over 600 commonly kept freshwater species. Every one of these 
@@ -99,7 +99,7 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="/contact/"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Contact
                 </a>
@@ -124,21 +124,21 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-col justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-auto bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
-            <span className="text-black font-semibold font-montserrat text-4xl">
+            <span className="text-primaryText font-semibold font-montserrat text-4xl">
               TECH STACK
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black font-montserrat text-2xl">React Native 18+</p>
-                <p className="text-black font-montserrat opacity-50 text-sm">Create powerful mobile apps.</p>
+                <p className="text-primaryText font-montserrat text-2xl">React Native 18+</p>
+                <p className="text-primaryText font-montserrat opacity-50 text-sm">Create powerful mobile apps.</p>
               </div>
               <div className="mt-5">
-                <p className="text-black font-montserrat text-2xl">Expo SDK 45+</p>
-                <p className="text-black font-montserrat opacity-50 text-sm">Streamlined development & deployment.</p>
+                <p className="text-primaryText font-montserrat text-2xl">Expo SDK 45+</p>
+                <p className="text-primaryText font-montserrat opacity-50 text-sm">Streamlined development & deployment.</p>
               </div>
               <div className="mt-5">
-                <p className="text-black font-montserrat text-2xl">Firebase</p>
-                <p className="text-black font-montserrat opacity-50 text-sm">
+                <p className="text-primaryText font-montserrat text-2xl">Firebase</p>
+                <p className="text-primaryText font-montserrat opacity-50 text-sm">
                   Seamless authentication, storage, & more.
                 </p>
               </div>
@@ -178,8 +178,8 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-primaryText text-2xl">v1.0.0</h3>
+            <h4 className="mt-10 text-primaryText opacity-70 text-xl">Released</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
@@ -198,14 +198,14 @@ const FeatureSection = () => {
       </Fade>
       
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
+        <h2 className="text-primaryText text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
           {" "}
           Integrations
         </h2>
-        <h3 className="text-black mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
+        <h3 className="text-primaryText mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
           Discover, connect, and configure
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

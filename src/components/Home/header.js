@@ -10,7 +10,7 @@ const Header = () => {
         <div className="my-5 mx-auto max-w-6xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-between flex-row lg:flex-row flex-col-reverse">
           <div className="w-2/3 sm:mt-10 text-center lg:text-left flex flex-col justify-center">
             
-            <h1 className="text-4xl font-semibold opacity-70">
+            <h1 className="text-primaryText text-4xl font-semibold">
               Welcome to Aquaflora
             </h1>
 
@@ -20,7 +20,7 @@ const Header = () => {
             
 
 
-            <p className="mt-3 font-montserrat text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 opacity-70">
+            <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             That helps fish keepers manage notifications, water parameters, and more.
             </p>
 
@@ -28,7 +28,7 @@ const Header = () => {
               <div className="rounded-md">
                 <a
                   href="/features"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Features
                   <svg
@@ -51,7 +51,7 @@ const Header = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-primaryText hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
                   Get to know me
                 </a>

@@ -20,9 +20,9 @@ module.exports = {
     },
     colors: {
       black: colors.black,
-      primaryText: "#e0e0e0",
-      purple: "#716dbf",
-      pink: "#9991cc",
+      primaryText: "#f0f0f0",
+      purple: "#BB86FC",
+      pink: "#03DAC6",
       darkpurple: "#634880",
       white: colors.white,
       lightblack: "#141414",
