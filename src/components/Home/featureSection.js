@@ -11,6 +11,7 @@ const FeatureSection = () => {
     <div className=" max-w-6xl mx-auto">
       <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+          
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
@@ -51,52 +52,73 @@ const FeatureSection = () => {
                 </a>
               </div>
             </div>
+
           </div>
         </div>
       </div>
-      
 
-      <div className="w-full lg:w-4/5 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
-          PARAMETER TRACKING
-        </h2>
-        <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Graph your water parameters
-        </h3>
-        <p className="text-black font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          The current water parameter chart allows for adding nitrate, nitrite, 
-          ammonia and pH levels to a graph for future reference. This allows 
-          you to check back to see if there was a recent parameter spike if you are 
-          experiencing issues with your tank. You will automatically be notified 
-          if any of these parameters are out of the safe range for your fish.
-        </p>
-      </div>
+      <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
+        <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+          
+          
 
-      <div className="mb-25 w-4/5 mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
-          FISH LIST
-        </h2>
-        <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Data on 600+ species
-        </h3>
-        <p className="text-black font-montserrat opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-        There is an integrated fish list section that displays basic 
-        information, along with a short description and image of 
-        over 600 commonly kept freshwater species. Every one of these 
-        fish can easily be added to any one of your current tanks, 
-        where the stocking will be automatically calculated.
-        </p>
-        <div style={{marginBottom:100}} className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md">
-            <a
-              href="/features"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
-            >
-              View More
-            </a>
+          <div className="w-2/3 sm:text-center lg:text-left flex flex-col justify-center">
+            <div className="mb-10">
+              <h2 className="text-black text-4xl font-semibold opacity-70">
+                PARAMETER TRACKING
+              </h2>
+              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+                Graph Your Parameters
+              </h3>
+              <p className="text-black font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+                The current water parameter chart allows for adding nitrate, nitrite, 
+                ammonia and pH levels to a graph for future reference. This allows 
+                you to check back to see if there was a recent parameter spike if you are 
+                experiencing issues with your tank. You will automatically be notified 
+                if any of these parameters are out of the safe range for your fish.
+              </p>
+            </div>
+
+            <div className="">
+              <h2 className="text-black text-4xl font-semibold opacity-70">
+                FISH LIST
+              </h2>
+              <h3 style={{lineHeight:1.2}} className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+                Data on 600+ species
+              </h3>
+              <p className="text-black font-montserrat font-normal opacity-70 mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+                There is an integrated fish list section that displays basic 
+                information, along with a short description and image of 
+                over 600 commonly kept freshwater species. Every one of these 
+                fish can easily be added to any one of your current tanks, 
+                where the stocking will be automatically calculated.
+              </p>
+            </div>
+
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
+              <div className="rounded-md">
+                <a
+                  href="/contact/"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                >
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
+            <img
+              className="rounded-xl w-full lg:h-full h-auto object-cover"
+              src={HeroImage}
+              alt=""
+            ></img>
           </div>
         </div>
       </div>
+          
+        
+
 
 
       <Fade bottom cascade>
