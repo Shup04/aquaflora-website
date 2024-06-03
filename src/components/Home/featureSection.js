@@ -9,31 +9,8 @@ import Image2 from "../../images/3D-liquid-abstract.webp"
 const FeatureSection = () => {
   return (
     <div className=" max-w-6xl mx-auto">
-{/* 
-      <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
-          </div>
-
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade>
-*/}
       <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
-        <div className="mb-50 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+        <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
@@ -79,7 +56,7 @@ const FeatureSection = () => {
       </div>
       
 
-      <div className="w-full lg:w-4/5 mt-50 px-8">
+      <div className="w-full lg:w-4/5 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           PARAMETER TRACKING
         </h2>
@@ -95,7 +72,7 @@ const FeatureSection = () => {
         </p>
       </div>
 
-      <div className="mb-50 w-4/5 mt-10 px-8">
+      <div className="mb-25 w-4/5 mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           FISH LIST
         </h2>
