@@ -11,22 +11,22 @@ const Footer = () => {
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
               {/* <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img> */}
-              <p className="text-black opacity-70 text-sm mt-5 ">
+              <p className="text-primaryText opacity-70 text-sm mt-5 ">
                 
               </p>
               <p className="text-white text-lg font-bold mt-20">
-                <span className="text-black font-montserrat font-semibold mt-20">
+                <span className="text-primaryText font-montserrat font-semibold mt-20">
                   &copy; {new Date().getFullYear()}. All Rights Reserved.
                 </span>
               </p>
-              <div className="text-black font-bold block-inline">
+              <div className="text-primaryText font-bold block-inline">
                 <p>
-                  <a className="text-black font-bold block-inline" href="/">
+                  <a className="text-primaryText font-bold block-inline" href="/">
                     Aquaflora
                   </a>
 
                   <a
-                    className="text-black font-semibold ml-1"
+                    className="text-primaryText font-semibold ml-1"
                     target="_blank"
                     href="https://github.com/Shup04"
                   >

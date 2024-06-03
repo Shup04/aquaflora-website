@@ -23,8 +23,8 @@ const WorkPage = () => {
       <Fade bottom cascade>
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">95+</h4>
+            <h3 className="text-primaryText text-2xl">Performance</h3>
+            <h4 className="mt-10 text-primaryText opacity-70 text-xl">95+</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
@@ -43,11 +43,11 @@ const WorkPage = () => {
       </Fade>*/}
 
       <div className="mt-10 px-8">
-        <h3 style={{lineHeight:1.2}} className="text-black text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           About Aquaflora
         </h3>
 
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           The goal was initially to create a mobile app for managing tank reminders, 
           but it has since grown into a larger project. Now it is able to track water parameters as 
           you test, aswell as a list of more than 600 commonly kept aquarium fish species. There is alot 
@@ -59,11 +59,11 @@ const WorkPage = () => {
         </p>
       </div>
       <div className="mt-10 px-8">
-        <h3 style={{lineHeight:1.2}} className="text-black text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           About The Developer
         </h3>
 
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Most importantly, I am a hobbiest aquarist and have been for over 5 years. I 
           have kept a a variety of tanks with animals ranging from shrimp, snails, and fish, to frogs. 
           I am 20 years old, taking my bachelor in software engineering, and have been programming 
