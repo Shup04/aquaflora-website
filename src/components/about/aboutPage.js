@@ -24,7 +24,11 @@ const WorkPage = () => {
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-primaryText text-2xl">Performance</h3>
+<<<<<<< HEAD
             <h4 className="mt-10 text-primaryText  text-xl">95+</h4>
+=======
+            <h4 className="mt-10 text-primaryText opacity-70 text-xl">95+</h4>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
@@ -47,7 +51,11 @@ const WorkPage = () => {
           About Aquaflora
         </h3>
 
+<<<<<<< HEAD
         <p className="text-primaryText  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+=======
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
           The goal was initially to create a mobile app for managing tank reminders, 
           but it has since grown into a larger project. Now it is able to track water parameters as 
           you test, aswell as a list of more than 600 commonly kept aquarium fish species. There is alot 
@@ -63,7 +71,11 @@ const WorkPage = () => {
           About The Developer
         </h3>
 
+<<<<<<< HEAD
         <p className="text-primaryText  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+=======
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
           Most importantly, I am a hobbiest aquarist and have been for over 5 years. I 
           have kept a a variety of tanks with animals ranging from shrimp, snails, and fish, to frogs. 
           I am 20 years old, taking my bachelor in software engineering, and have been programming 

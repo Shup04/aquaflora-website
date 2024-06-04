@@ -10,6 +10,7 @@ const Footer = () => {
         <div className="footer bg-darkH1 p-10 mt-10 rounded-xl text-gray-300">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div>
+
               {/* Logo can be added here */}
               <p className="text-lg  font-bold mt-5">
                 &copy; {new Date().getFullYear()} AquaFlora. All Rights Reserved.
@@ -20,6 +21,7 @@ const Footer = () => {
               <a href="https://github.com/Shup04" target="_blank" rel="noopener noreferrer">
                 <img className="w-5 h-5 mt-1" src="/img/Github-Logo.png" alt="GitHub" />
               </a>
+
             </div>
             <div className="flex justify-end items-center lg:justify-end">
               <ul className="text-lg font-medium space-y-2 lg:space-y-0 lg:space-x-4">

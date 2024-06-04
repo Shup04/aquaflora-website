@@ -41,16 +41,27 @@ const featuresData = [
 const FeaturesPage = () => {
     return (
       <Layout>
+<<<<<<< HEAD
         <div className="text-center py-10">
           <h1 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl ">Our Features</h1>
           <h1 className="text-primaryText mt-4 font-montserrat text-xl ">Aquaflora has many useful features tailored to hobbiest aquarists.</h1>
         </div>
+=======
+        <header className="bg-gray-100 text-center py-10">
+          <h1 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">Our Features</h1>
+          <h1 className="mt-4 font-montserrat text-xl opacity-70">Aquaflora has many useful features tailored to hobbiest aquarists.</h1>
+        </header>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
         <div className="max-w-6xl mx-auto mt-10">
 
             <div className="flex flex-col md:flex-row items-center mb-10">
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[0].title}</h2>
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[0].description}</p>
+=======
+                    <p className="text-lg font-montserrat opacity-70">{featuresData[0].description}</p>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
                 <div className="mx-auto w-1/3 md:block p-4 hidden">
                     <img src={featuresData[0].image} alt='title' className="w-full h-auto rounded-lg" />
@@ -63,14 +74,22 @@ const FeaturesPage = () => {
                 </div>
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[1].title}</h2>
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[1].description}</p>
+=======
+                    <p className="text-lg font-montserrat opacity-70">{featuresData[1].description}</p>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
             </div>
 
             <div className="flex flex-col md:flex-row items-center mb-10">
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[2].title}</h2>
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[2].description}</p>
+=======
+                    <p className="text-lg font-montserrat opacity-70">{featuresData[2].description}</p>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
                 <div className="mx-auto w-1/3 md:block p-4 hidden">
                     <img src={featuresData[2].image} alt='title' className="w-full h-auto rounded-lg" />
@@ -83,14 +102,22 @@ const FeaturesPage = () => {
                 </div>
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[3].title}</h2>
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[3].description}</p>
+=======
+                    <p className="text-lg font-montserrat opacity-70">{featuresData[3].description}</p>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
             </div>
 
             <div className="flex flex-col md:flex-row items-center mb-10">
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[4].title}</h2>
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[4].description}</p>
+=======
+                    <p className="text-lg font-montserrat opacity-70">{featuresData[4].description}</p>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
                 <div className="mx-auto w-1/3 md:block p-4 hidden">
                     <img src={featuresData[4].image} alt='title' className="w-full h-auto rounded-lg" />

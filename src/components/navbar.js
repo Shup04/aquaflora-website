@@ -19,33 +19,53 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
                 <Link
+<<<<<<< HEAD
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText  hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+=======
+                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                   to="/"
                 >
                   Home
                 </Link>
                 <Link
+<<<<<<< HEAD
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText  hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+=======
+                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                   to="/features"
                 >
                   Features
                 </Link>
 
                 <Link
+<<<<<<< HEAD
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText  hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+=======
+                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                   to="/about"
                 >
                   About
                 </Link>
                 {/* 
                 <Link
+<<<<<<< HEAD
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText  hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+=======
+                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                   to="/blog"
                 >
                   Blog
                 </Link>
                 <Link
+<<<<<<< HEAD
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText  hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+=======
+                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-primaryText opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                   to="/contact"
                 >
                   Contact

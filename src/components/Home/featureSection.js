@@ -22,16 +22,19 @@ const FeatureSection = () => {
 
           <div className="w-2/3 sm:text-center lg:text-right flex flex-col justify-center">
             <div className="mb-10">
+
               <h2 style={{marginBottom:0}} className="text-primaryText text-4xl font-semibold ">Effortless Organization</h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Tank Profiles
               </h3>
               <p className="text-primaryText font-montserrat font-normal mt-3 text-base text-primaryText-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 ">
+
               Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can effortlessly manage your tanks' stocking, maintenance, parameters, all in one place, saving you time and effort so you can focus more on enjoying your hobby.
               </p>
             </div>
 
             <div className="">
+
             <h2 style={{marginBottom:0}} className="text-primaryText text-4xl font-semibold ">Peace of Mind</h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Automatic Alerts
@@ -179,7 +182,11 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-primaryText text-2xl">v1.0.0</h3>
+<<<<<<< HEAD
             <h4 className="mt-10 text-primaryText  text-xl">Released</h4>
+=======
+            <h4 className="mt-10 text-primaryText opacity-70 text-xl">Released</h4>
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
@@ -205,7 +212,11 @@ const FeatureSection = () => {
         <h3 className="text-primaryText mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
           Discover, connect, and configure
         </h3>
+<<<<<<< HEAD
         <p className="text-primaryText  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+=======
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
