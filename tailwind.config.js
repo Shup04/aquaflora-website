@@ -28,6 +28,7 @@ module.exports = {
       lightblack: "#141414",
       bg: "hsla(243, 60%, 95%, 1)",
       darkBG: "#121212",
+      darkH1: "#242424",
       dp: "#525074",
       gray: colors.gray,
       transparent: colors.transparent,

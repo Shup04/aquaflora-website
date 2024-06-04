@@ -20,7 +20,7 @@ const BlogHeader = ({ post }) => {
                 {post.node.frontmatter.title}
               </h1>
             </Link>
-            <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
+            <p className="text-lg mt-4 text-white  xxs:text-sm sm:text-lg">
               {post.node.frontmatter.description}
             </p>
           </div>

@@ -10,13 +10,13 @@ const Gallery = () => {
       <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
-            <h1 className="text-primaryText opacity-70 text-4xl font-semibold">
+            <h1 className="text-primaryText  text-4xl font-semibold">
               GALLERY
             </h1>
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               Holo Starter Theme
             </h1>
-            <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
+            <p className="text-lg mt-4 text-white  xxs:text-sm sm:text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

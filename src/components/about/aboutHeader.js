@@ -16,7 +16,7 @@ const AboutHeader = () => {
           <h1 className="font-bold text-xl text-primaryText text-gradient bg-gradient-to-r from-pink to-purple">
             What is Aquaflora?
           </h1>
-          <h2 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">
+          <h2 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl ">
             The ultimate aquarium managment companion app.
           </h2>
         </div>

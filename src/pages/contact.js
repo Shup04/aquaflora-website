@@ -17,12 +17,12 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
+          <div className="bg-dp  p-10 rounded-xl w-3/4 m-5 w-auto">
             <h1 className="text-3xl text-white">CONTACT AQUAFLORA</h1>
             <h2 className=" text-primaryText text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Contact Me
             </h2>
-            <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
+            <p className="text-lg mt-2  w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
               Feel free to ask any questions or share your thoughts. 
               I will try to reply as soon as possible. I would love to hear from you.
             </p>

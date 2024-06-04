@@ -11,7 +11,7 @@ import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="bg-darkBG">
       <Navbar></Navbar>
       {children}
       <Footer></Footer>

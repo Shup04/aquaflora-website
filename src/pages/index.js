@@ -9,7 +9,7 @@ import FeaturedBlog from "../components/FeaturedBlog"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
-  <div className="bg-darkBG h-auto w-screen">
+  <div className="bg-darkBG min-h-screen w-full flex flex-col">
     <Layout>
       <Seo
         title="AquaFlora - Home"
