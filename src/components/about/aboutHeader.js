@@ -17,7 +17,11 @@ const AboutHeader = () => {
             What is Aquaflora?
           </h1>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <h2 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl ">
+=======
+          <h2 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
 =======
           <h2 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd

@@ -58,8 +58,11 @@ const FeaturesPage = () => {
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[0].title}</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[0].description}</p>
 =======
+=======
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                     <p className="text-lg font-montserrat opacity-70">{featuresData[0].description}</p>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
@@ -75,8 +78,11 @@ const FeaturesPage = () => {
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[1].title}</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[1].description}</p>
 =======
+=======
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                     <p className="text-lg font-montserrat opacity-70">{featuresData[1].description}</p>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
@@ -86,8 +92,11 @@ const FeaturesPage = () => {
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[2].title}</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[2].description}</p>
 =======
+=======
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                     <p className="text-lg font-montserrat opacity-70">{featuresData[2].description}</p>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
@@ -103,8 +112,11 @@ const FeaturesPage = () => {
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[3].title}</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[3].description}</p>
 =======
+=======
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                     <p className="text-lg font-montserrat opacity-70">{featuresData[3].description}</p>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>
@@ -114,8 +126,11 @@ const FeaturesPage = () => {
                 <div className="w-2/3 p-4">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[4].title}</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[4].description}</p>
 =======
+=======
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                     <p className="text-lg font-montserrat opacity-70">{featuresData[4].description}</p>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
                 </div>

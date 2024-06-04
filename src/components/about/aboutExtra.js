@@ -9,7 +9,11 @@ const AboutExtra = () => {
           Start building amazing web experiences
         </h3>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p className="text-primaryText  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+=======
+        <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
 =======
         <p className="text-primaryText opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd

@@ -35,6 +35,7 @@ const Header = () => {
                 </p>
               </div>
 
+<<<<<<< HEAD
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md">
                   <a
@@ -69,6 +70,8 @@ const Header = () => {
                 </div>
 =======
 
+=======
+>>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
             <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             That helps fish keepers manage notifications, water parameters, and more.
             </p>
