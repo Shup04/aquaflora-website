@@ -50,7 +50,6 @@ const FeatureSection = () => {
                 <a
                   href="/contact/"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Contact
                 </a>
@@ -72,6 +71,8 @@ const FeatureSection = () => {
                 PARAMETER TRACKING
               </h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              asdasd
+              </h3>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Graph Your Parameters
               </h3>
@@ -89,6 +90,8 @@ const FeatureSection = () => {
                 FISH LIST
               </h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              asdas
+              </h3>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Data on 600+ species
               </h3>
