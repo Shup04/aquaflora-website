@@ -5,7 +5,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav className="bg-transparent">
-      <div className="max-w-6xl mx-auto px-3 py-5 rounded-md">
+      <div className="max-w-8xl mx-auto px-3 py-5 rounded-md">
         <div className="flex items-center justify-between md:h-16 h-4">
           <div className="w-full justify-between flex items-center">
             <a
