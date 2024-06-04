@@ -50,6 +50,7 @@ const FeatureSection = () => {
                 <a
                   href="/contact/"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Contact
                 </a>
@@ -71,6 +72,7 @@ const FeatureSection = () => {
                 PARAMETER TRACKING
               </h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Graph Your Parameters
               </h3>
               <p className="text-primaryText font-montserrat font-normal  mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
@@ -86,6 +88,7 @@ const FeatureSection = () => {
               <h2 className="text-primaryText text-4xl font-semibold ">
                 FISH LIST
               </h2>
+              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Data on 600+ species
               </h3>
@@ -128,18 +131,25 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-col justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-auto bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-primaryText font-semibold font-montserrat text-4xl">
+            <span className="text-primaryText font-semibold font-montserrat text-4xl">
               TECH STACK
             </span>
             <div className="mt-5">
               <div>
                 <p className="text-primaryText font-montserrat text-2xl">React Native 18+</p>
                 <p className="text-primaryText font-montserrat opacity-50 text-sm">Create powerful mobile apps.</p>
+                <p className="text-primaryText font-montserrat text-2xl">React Native 18+</p>
+                <p className="text-primaryText font-montserrat opacity-50 text-sm">Create powerful mobile apps.</p>
               </div>
               <div className="mt-5">
                 <p className="text-primaryText font-montserrat text-2xl">Expo SDK 45+</p>
                 <p className="text-primaryText font-montserrat opacity-50 text-sm">Streamlined development & deployment.</p>
+                <p className="text-primaryText font-montserrat text-2xl">Expo SDK 45+</p>
+                <p className="text-primaryText font-montserrat opacity-50 text-sm">Streamlined development & deployment.</p>
               </div>
               <div className="mt-5">
+                <p className="text-primaryText font-montserrat text-2xl">Firebase</p>
+                <p className="text-primaryText font-montserrat opacity-50 text-sm">
                 <p className="text-primaryText font-montserrat text-2xl">Firebase</p>
                 <p className="text-primaryText font-montserrat opacity-50 text-sm">
                   Seamless authentication, storage, & more.
@@ -206,9 +216,11 @@ const FeatureSection = () => {
       
       <div className="mt-10 px-8">
         <h2 className="text-primaryText text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
+        <h2 className="text-primaryText text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
           {" "}
           Integrations
         </h2>
+        <h3 className="text-primaryText mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
         <h3 className="text-primaryText mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
           Discover, connect, and configure
         </h3>

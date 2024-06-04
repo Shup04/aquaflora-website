@@ -16,6 +16,7 @@ const Header = () => {
           <div className="w-2/3 sm:mt-10 text-center lg:text-left flex flex-col justify-center">
             
             <h1 className="text-primaryText text-4xl font-semibold">
+            <h1 className="text-primaryText text-4xl font-semibold">
               Welcome to Aquaflora
             </h1>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd
@@ -81,6 +82,7 @@ const Header = () => {
                 <a
                   href="/features"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Features
                   <svg
@@ -103,6 +105,7 @@ const Header = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-primaryText hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-primaryText hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
                   Get to know me

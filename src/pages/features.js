@@ -49,6 +49,7 @@ const FeaturesPage = () => {
 =======
         <header className="bg-gray-100 text-center py-10">
           <h1 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">Our Features</h1>
+          <h1 className="text-primaryText text-3xl font-semibold leading-snug sm:text-3xl lg:text-6xl opacity-70">Our Features</h1>
           <h1 className="mt-4 font-montserrat text-xl opacity-70">Aquaflora has many useful features tailored to hobbiest aquarists.</h1>
         </header>
 >>>>>>> c16f1a462ef8f09de6cc206e3c93a645e7b03bcd

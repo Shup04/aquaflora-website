@@ -24,6 +24,8 @@ const WorkPage = () => {
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-primaryText text-2xl">Performance</h3>
+            <h4 className="mt-10 text-primaryText opacity-70 text-xl">95+</h4>
+            <h3 className="text-primaryText text-2xl">Performance</h3>
 <<<<<<< HEAD
 <<<<<<< HEAD
             <h4 className="mt-10 text-primaryText  text-xl">95+</h4>
@@ -52,6 +54,7 @@ const WorkPage = () => {
 
       <div className="mt-10 px-8">
         <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           About Aquaflora
         </h3>
 
@@ -75,6 +78,7 @@ const WorkPage = () => {
         </p>
       </div>
       <div className="mt-10 px-8">
+        <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
         <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl lg:text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           About The Developer
         </h3>
