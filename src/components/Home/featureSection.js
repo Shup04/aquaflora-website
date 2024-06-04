@@ -62,17 +62,12 @@ const FeatureSection = () => {
 
       <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
-          
-          
-
+      
           <div className="w-2/3 sm:text-center lg:text-left flex flex-col justify-center">
             <div className="mb-10">
               <h2 className="text-primaryText text-4xl font-semibold ">
                 PARAMETER TRACKING
               </h2>
-              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              asdasd
-              </h3>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Graph Your Parameters
               </h3>
@@ -89,9 +84,6 @@ const FeatureSection = () => {
               <h2 className="text-primaryText text-4xl font-semibold ">
                 FISH LIST
               </h2>
-              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              asdas
-              </h3>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Data on 600+ species
               </h3>
@@ -123,6 +115,7 @@ const FeatureSection = () => {
               alt=""
             ></img>
           </div>
+
         </div>
       </div>
           
