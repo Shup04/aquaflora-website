@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/AppImages/tankScreen1.png"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
+import fishScreen from "../../images/AppImages/fishScreen.png"
+
 
 const FeatureSection = () => {
   return (
@@ -111,7 +111,7 @@ const FeatureSection = () => {
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
-              src={HeroImage}
+              src={fishScreen}
               alt=""
             ></img>
           </div>
