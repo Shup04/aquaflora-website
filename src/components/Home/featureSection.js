@@ -14,29 +14,26 @@ const FeatureSection = () => {
           
           <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-1/2 my-0 flex justify-center lg:flex">
             <img
-              className="rounded-xl w-full lg:h-full h-auto object-cover"
+              className="rounded-xl lg:w-full w-3/5 lg:h-full h-auto object-contain"
               src={HeroImage}
               alt=""
             ></img>
           </div>
 
-          <div className="xl:w-2/3 w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
+          <div className="xl:w-2/3 sm:w-1/2 w-full sm:text-center lg:text-right flex flex-col justify-center">
             <div className="mb-10">
-
-              <h2 style={{marginBottom:0}} className="text-primaryText text-4xl font-semibold ">Effortless Organization</h2>
-              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h2 style={{marginBottom:0}} className="text-primaryText md:text-4xl text-2xl font-semibold ">Effortless Organization</h2>
+              <h3 style={{lineHeight:1.2}} className="text-primaryText lg:text-6xl md:text-4xl sm:text-3xl text-2xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Tank Profiles
               </h3>
               <p className="text-primaryText font-montserrat font-normal mt-3 text-xxs md:text-sm lg:text-lg">
-
-              Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can effortlessly manage your tanks' stocking, maintenance, parameters, all in one place, saving you time and effort so you can focus more on enjoying your hobby.
+                Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can effortlessly manage your tanks' stocking, maintenance, parameters, all in one place, saving you time and effort so you can focus more on enjoying your hobby.
               </p>
             </div>
 
             <div className="">
-
-            <h2 style={{marginBottom:0}} className="text-primaryText text-4xl font-semibold ">Peace of Mind</h2>
-              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h2 style={{marginBottom:0}} className="text-primaryText md:text-4xl text-2xl font-semibold ">Peace of Mind</h2>
+              <h3 style={{lineHeight:1.2}} className="text-primaryText lg:text-6xl md:text-4xl sm:text-3xl text-2xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Automatic Alerts
               </h3>
               <p className="text-primaryText font-montserrat font-normal mt-3 text-xxs md:text-sm lg:text-lg">
@@ -63,12 +60,19 @@ const FeatureSection = () => {
       <div className=" sm:mt-0 max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col sm:flex-row gap-3 lg:flex-justify">
       
-          <div className="xl:w-2/3 w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
+          <div className="xl:w-2/3 sm:w-1/2 w-full sm:text-center lg:text-left flex flex-col justify-center">
+            <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-full my-0 flex justify-center lg:flex sm:hidden block">
+              <img
+                className="rounded-xl w-3/5 lg:h-full h-full sm:hidden block object-contain"
+                src={fishScreen}
+                alt=""
+              ></img>
+            </div>
             <div className="mb-10">
               <h2 className="text-primaryText sm:text-4xl text-2xl font-semibold ">
                 PARAMETER TRACKING
               </h2>
-              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h3 style={{lineHeight:1.2}} className="text-primaryText sm:text-6xl text-2xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Graph Your Parameters
               </h3>
               <p className="text-primaryText font-montserrat font-normal mt-3 text-xxs md:text-sm lg:text-lg">
@@ -81,13 +85,13 @@ const FeatureSection = () => {
             </div>
 
             <div className="">
-              <h2 className="text-primaryText text-4xl font-semibold ">
+              <h2 className="text-primaryText sm:text-4xl text-2xl font-semibold ">
                 FISH LIST
               </h2>
-              <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+              <h3 style={{lineHeight:1.2}} className="text-primaryText sm:text-6xl text-2xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Data on 600+ species
               </h3>
-              <p className="text-primaryText font-montserrat font-normal  mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+              <p className="text-primaryText font-montserrat font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
                 There is an integrated fish list section that displays basic 
                 information, along with a short description and image of 
                 over 600 commonly kept freshwater species. Every one of these 
@@ -108,7 +112,7 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-1/2 my-0 flex justify-center lg:flex">
+          <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-1/2 my-0 flex justify-center lg:flex sm:block hidden">
             <img
               className="rounded-xl w-full lg:h-full h-full object-contain"
               src={fishScreen}

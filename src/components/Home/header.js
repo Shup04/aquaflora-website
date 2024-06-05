@@ -17,7 +17,7 @@ const Header = () => {
                 <h2 style={{marginBottom:0}} className="text-primaryText md:text-4xl text-2xl font-semibold ">
                   Welcome to Aquaflora
                 </h2>
-                <h3 style={{lineHeight:1.2}} className="text-primaryText text-3xl font-bold md:text-4xl sm:text-3xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+                <h3 style={{lineHeight:1.2}} className="text-primaryText lg:text-6xl md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">
                 Aquarium Managment Mobile App
                 </h3>
                 <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -60,9 +60,9 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex lg-block">
+            <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 w-full my-0 flex justify-center lg:flex lg-block">
               <img
-                className="rounded-xl lg:w-full w-3/5 lg:h-full h-auto object-cover"
+                className="rounded-xl lg:w-full w-3/5 lg:h-full h-auto object-contain"
                 src={hero}
                 alt=""
               ></img>
