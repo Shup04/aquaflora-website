@@ -45,7 +45,7 @@ module.exports = {
       lg: "831px", // added 1 because text was collapsing at 830
       // => @media (min-width: 1024px) { ... }
 
-      xl: "1280px",
+      xl: "1104px",
       // => @media (min-width: 1280px) { ... }
 
       "2xl": "1536px",
