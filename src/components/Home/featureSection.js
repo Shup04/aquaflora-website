@@ -8,11 +8,11 @@ import fishScreen from "../../images/AppImages/fishScreen.png"
 
 const FeatureSection = () => {
   return (
-    <div className=" max-w-6xl mx-auto">
-      <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
+    <div className=" max-w-7xl mx-auto">
+      <div className=" sm:mt-0 max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 w-1/2 my-0 flex justify-center lg:flex ">
             <img
               className="rounded-xl w-full lg:h-full h-auto object-cover"
               src={HeroImage}
@@ -61,17 +61,17 @@ const FeatureSection = () => {
       </div>
 
       <div className=" sm:mt-0 max-w-6xl mx-auto lg:px-6 md:px-3">
-        <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+        <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col sm:flex-row gap-3 lg:flex-justify">
       
-          <div className="w-2/3 sm:text-center lg:text-left flex flex-col justify-center">
+          <div className="md:w-2/3 w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
             <div className="mb-10">
-              <h2 className="text-primaryText text-4xl font-semibold ">
+              <h2 className="text-primaryText sm:text-4xl text-2xl font-semibold ">
                 PARAMETER TRACKING
               </h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Graph Your Parameters
               </h3>
-              <p className="text-primaryText font-montserrat font-normal  mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+              <p className="text-primaryText font-montserrat font-normal mt-3 text-xxs md:text-sm lg:text-lg">
                 The current water parameter chart allows for adding nitrate, nitrite, 
                 ammonia and pH levels to a graph for future reference. This allows 
                 you to check back to see if there was a recent parameter spike if you are 
@@ -108,9 +108,9 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 my-0 flex justify-center lg:flex hidden lg-block">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 w-1/2 my-0 flex justify-center lg:flex ">
             <img
-              className="rounded-xl w-full lg:h-full h-auto object-cover"
+              className="rounded-xl w-full lg:h-full h-full object-contain"
               src={fishScreen}
               alt=""
             ></img>
