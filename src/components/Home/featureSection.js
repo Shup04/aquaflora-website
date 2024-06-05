@@ -27,7 +27,7 @@ const FeatureSection = () => {
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Tank Profiles
               </h3>
-              <p className="text-primaryText font-montserrat font-normal mt-3 text-base text-primaryText-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 ">
+              <p className="text-primaryText font-montserrat font-normal mt-3 text-xxs md:text-sm lg:text-lg">
 
               Say goodbye to scattered notes and spreadsheets. With AquaFlora, you can effortlessly manage your tanks' stocking, maintenance, parameters, all in one place, saving you time and effort so you can focus more on enjoying your hobby.
               </p>
@@ -39,7 +39,7 @@ const FeatureSection = () => {
               <h3 style={{lineHeight:1.2}} className="text-primaryText text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Automatic Alerts
               </h3>
-              <p className="text-primaryText font-montserrat font-normal mt-3 text-base text-primaryText-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 ">
+              <p className="text-primaryText font-montserrat font-normal mt-3 text-xxs md:text-sm lg:text-lg">
               Simplify your tank maintenance routines with detailed profiles and reminders. AquaFlora helps you keep track of essential tasks, ensuring nothing is overlooked.
               </p>
             </div>
