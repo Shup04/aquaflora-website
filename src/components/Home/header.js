@@ -8,10 +8,10 @@ const Header = () => {
     <Fade duration={2200}>
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3 lg:py-0 py-0 sm:py-0">
         <div className="lg:my-5 mx-auto max-w-7xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-between flex-row lg:flex-row flex-col-reverse">
-          <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-0 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col-reverse lg:flex-row gap-3 lg:flex-justify">
+          <div className="mb-25 justify-between items-center mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-0 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col-reverse md:flex-row gap-3 lg:flex-justify">
           
 
-            <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center lg:text-left flex flex-col justify-center">
+            <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center md:text-left flex flex-col justify-center">
 
               <div className="w-full">
                 <h2 style={{marginBottom:0}} className="text-primaryText md:text-3xl text-2xl font-semibold ">
@@ -25,7 +25,7 @@ const Header = () => {
                 </p>
               </div>
 
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center md:justify-start">
                 <div className="rounded-md">
                   <a
                     href="/features"
@@ -54,7 +54,7 @@ const Header = () => {
                     href="/about"
                     className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-primaryText hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                   >
-                    Get to know me
+                    About
                   </a>
                 </div>
               </div>
