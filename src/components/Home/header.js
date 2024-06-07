@@ -14,7 +14,7 @@ const Header = () => {
             <div className="xl:w-2/3 :w-3/5 w-full sm:text-center lg:text-left flex flex-col justify-center">
 
               <div className="w-full">
-                <h2 style={{marginBottom:0}} className="text-primaryText md:text-4xl text-2xl font-semibold ">
+                <h2 style={{marginBottom:0}} className="text-primaryText md:text-3xl text-2xl font-semibold ">
                   Welcome to Aquaflora
                 </h2>
                 <h3 style={{lineHeight:1.2}} className="text-primaryText lg:text-6xl md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">
