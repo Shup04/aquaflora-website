@@ -62,7 +62,7 @@ const Header = () => {
 
             <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 sm:w-2/5 my-0 flex justify-center lg:flex">
               <img
-                className="rounded-xl w-full lg:h-full h-auto object-contain"
+                className="rounded-xl sm:w-full w-1/2 lg:h-full h-auto object-contain"
                 src={hero}
                 alt=""
               ></img>
