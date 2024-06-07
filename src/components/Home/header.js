@@ -11,7 +11,7 @@ const Header = () => {
           <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-0 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col-reverse lg:flex-row gap-3 lg:flex-justify">
           
 
-            <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center lg:text-left flex flex-col justify-center">
+            <div className="xl:w-2/3 md:w-3/5 w-full sm:text-center lg:text-left flex flex-col justify-center">
 
               <div>
                 <h2 style={{marginBottom:0}} className="text-primaryText md:text-4xl text-2xl font-semibold ">
@@ -60,7 +60,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 sm:w-2/5 w-full my-0 flex justify-center lg:flex">
+            <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 md:w-2/5 w-full my-0 flex justify-center lg:flex">
               <img
                 className="rounded-xl lg:w-full w-3/5 lg:h-full h-auto object-contain"
                 src={hero}
