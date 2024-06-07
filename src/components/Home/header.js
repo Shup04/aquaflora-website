@@ -11,7 +11,7 @@ const Header = () => {
           <div className="mb-25 justify-between items-center mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-0 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col-reverse md:flex-row gap-3 lg:flex-justify">
           
 
-            <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center md:text-left flex flex-col justify-center">
+            <div className="xl:w-2/3 sm:w-3/5 w-full text-center md:text-left flex flex-col justify-center">
 
               <div className="w-full">
                 <h2 style={{marginBottom:0}} className="text-primaryText md:text-3xl text-2xl font-semibold ">

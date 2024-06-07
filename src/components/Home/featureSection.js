@@ -20,7 +20,7 @@ const FeatureSection = () => {
             ></img>
           </div>
 
-          <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center md:text-right flex flex-col justify-center">
+          <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center sm:text-right flex flex-col justify-center">
             <div className="mb-10">
               <h2 style={{marginBottom:0}} className="text-primaryText md:text-3xl text-2xl font-semibold ">Effortless Organization</h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText lg:text-6xl md:text-4xl sm:text-3xl text-2xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
