@@ -12,7 +12,7 @@ const FeatureSection = () => {
       <div className=" sm:mt-0 max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col sm:flex-row gap-3 lg:flex-justify">
           
-          <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-1/2 my-0 flex justify-center lg:flex">
+          <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-2/5 my-0 flex justify-center lg:flex">
             <img
               className="rounded-xl lg:w-full w-3/5 lg:h-full h-auto object-contain"
               src={HeroImage}
@@ -20,7 +20,7 @@ const FeatureSection = () => {
             ></img>
           </div>
 
-          <div className="xl:w-2/3 sm:w-1/2 w-full sm:text-center lg:text-right flex flex-col justify-center">
+          <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center lg:text-right flex flex-col justify-center">
             <div className="mb-10">
               <h2 style={{marginBottom:0}} className="text-primaryText md:text-4xl text-2xl font-semibold ">Effortless Organization</h2>
               <h3 style={{lineHeight:1.2}} className="text-primaryText lg:text-6xl md:text-4xl sm:text-3xl text-2xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
