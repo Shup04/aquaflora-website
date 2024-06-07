@@ -60,7 +60,7 @@ const FeatureSection = () => {
       <div className=" sm:mt-0 max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col sm:flex-row gap-3 lg:flex-justify">
       
-          <div className="xl:w-2/3 sm:w-1/2 w-full sm:text-center lg:text-left flex flex-col justify-center">
+          <div className="xl:w-2/3 sm:w-3/5 w-full sm:text-center lg:text-left flex flex-col justify-center">
             <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-full my-0 flex justify-center lg:flex sm:hidden block">
               <img
                 className="rounded-xl w-3/5 lg:h-full h-full sm:hidden block object-contain"
@@ -112,7 +112,7 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-1/2 my-0 flex justify-center lg:flex sm:block hidden">
+          <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 sm:w-2/5 my-0 flex justify-center lg:flex sm:block hidden">
             <img
               className="rounded-xl w-full lg:h-full h-full object-contain"
               src={fishScreen}
