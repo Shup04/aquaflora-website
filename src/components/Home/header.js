@@ -6,8 +6,8 @@ import hero from "../../images/AppImages/tanksScreen.png"
 const Header = () => {
   return (
     <Fade duration={2200}>
-      <div className="max-w-7xl mx-auto lg:px-6 md:px-3 lg:py-0 py-0 sm:py-0">
-        <div className="lg:my-5 mx-auto max-w-7xl px-4  sm:px-6  lg:mt-0 lg:px-0 flex gap-10 lg:flex-justify lg:flex justify-between lg:flex-row flex-col-reverse">
+      <div className="max-w-7xl mx-auto ">
+        <div className="sm:mt-0 max-w-7xl mx-auto lg:px-6 md:px-3">
           <div className="mb-25 justify-between items-center mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-0 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col-reverse sm:flex-row gap-3 lg:flex-justify">
           
 
@@ -60,7 +60,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-2/5 my-0 flex justify-center lg:flex">
+            <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 sm:w-2/5 my-0 flex justify-center lg:flex">
               <img
                 className="rounded-xl w-full lg:h-full h-auto object-contain"
                 src={hero}
