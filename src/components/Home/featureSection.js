@@ -14,7 +14,7 @@ const FeatureSection = () => {
           
           <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 w-2/5 my-0 flex justify-center lg:flex">
             <img
-              className="rounded-xl lg:w-full w-3/5 lg:h-full h-auto object-contain"
+              className="rounded-xl w-full lg:h-full h-auto object-contain"
               src={HeroImage}
               alt=""
             ></img>
