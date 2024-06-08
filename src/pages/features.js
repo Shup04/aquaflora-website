@@ -47,54 +47,53 @@ const FeaturesPage = () => {
         </div>
         <div className="max-w-6xl mx-auto mt-10">
 
-            <div className="flex flex-col md:flex-row items-center mb-10">
-                <div className="w-3/5 p-4">
+            <div className="flex sm:flex-row flex-col-reverse items-center sm:mb-10 mb-30">
+                <div className="sm:w-3/5 w-full p-4 sm:text-left text-center">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[0].title}</h2>
-
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[0].description}</p>
                 </div>
-                <div className="mx-auto w-2/5 md:block p-4 hidden">
-                    <img src={featuresData[0].image} alt='title' className="w-full h-auto rounded-lg object-contain" />
+                <div className="mx-auto sm:w-2/5 w-full p-4 flex justify-center">
+                    <img src={featuresData[0].image} alt='title' className="sm:w-full w-1/2 h-auto rounded-lg object-contain" />
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center mb-10">
-                <div className="mx-auto w-2/5 md:block p-4 hidden">
-                    <img src={featuresData[1].image} alt='title' className="w-full h-auto rounded-lg" />
+            <div className="flex sm:flex-row flex-col items-center sm:mb-10 mb-30">
+                <div className="mx-auto sm:w-2/5 w-full p-4 flex justify-center">
+                    <img src={featuresData[1].image} alt='title' className="sm:w-full w-1/2 h-auto rounded-lg object-contain" />
                 </div>
-                <div className="w-3/5 p-4 text-right">
+                <div className="sm:w-3/5 w-full p-4 sm:text-right text-center">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[1].title}</h2>
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[1].description}</p>
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center mb-10">
-                <div className="w-3/5 p-4">
+            <div className="flex sm:flex-row flex-col-reverse items-center sm:mb-10 mb-30">
+                <div className="sm:w-3/5 w-full p-4 sm:text-left text-center">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[2].title}</h2>
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[2].description}</p>
                 </div>
-                <div className="mx-auto w-2/5 md:block p-4 hidden">
-                    <img src={featuresData[2].image} alt='title' className="w-full h-auto rounded-lg" />
+                <div className="mx-auto sm:w-2/5 w-full p-4 flex justify-center">
+                    <img src={featuresData[2].image} alt='title' className="sm:w-full w-1/2 h-auto rounded-lg object-contain" />
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center mb-10">
-                <div className="mx-auto w-2/5 md:block p-4 hidden">
-                    <img src={featuresData[3].image} alt='title' className="w-full h-auto rounded-lg" />
+            <div className="flex sm:flex-row flex-col items-center sm:mb-10 mb-30">
+                <div className="mx-auto sm:w-2/5 w-full p-4 flex justify-center">
+                    <img src={featuresData[3].image} alt='title' className="sm:w-full w-1/2 h-auto rounded-lg object-contain" />
                 </div>
-                <div className="w-3/5 p-4 text-right">
+                <div className="sm:w-3/5 w-full p-4 sm:text-right text-center">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[3].title}</h2>
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[3].description}</p>
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center mb-10">
-                <div className="w-3/5 p-4">
+            <div className="flex sm:flex-row flex-col-reverse items-center sm:mb-10 mb-30">
+                <div className="sm:w-3/5 w-full p-4 sm:text-left text-center">
                     <h2 style={{lineHeight:1.2}} className="text-primaryText md:text-4xl sm:text-3xl text-2xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">{featuresData[4].title}</h2>
                     <p className="mt-3 font-montserrat text-base text-primaryText sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{featuresData[4].description}</p>
                 </div>
-                <div className="mx-auto w-2/5 md:block p-4 hidden">
-                    <img src={featuresData[4].image} alt='title' className="w-full h-auto rounded-lg" />
+                <div className="mx-auto sm:w-2/5 w-full p-4 flex justify-center">
+                    <img src={featuresData[4].image} alt='title' className="sm:w-full w-1/2 h-auto rounded-lg object-contain" />
                 </div>
             </div>
         </div>
