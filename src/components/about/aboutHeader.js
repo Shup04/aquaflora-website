@@ -12,7 +12,7 @@ const AboutHeader = () => {
           <img src={Image3}></img>
         </div>
         */}
-        <div style={{marginTop: 150}} className="mt-10 px-8">
+        <div className="mt-10 px-8">
           <h1 className="font-bold text-xl text-primaryText text-gradient bg-gradient-to-r from-pink to-purple">
             What is Aquaflora?
           </h1>

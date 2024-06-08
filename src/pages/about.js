@@ -10,16 +10,18 @@ import AboutHeader from "../components/about/aboutHeader"
 
 const About = () => {
   return (
-    <Layout>
-      <Seo
-        title="About - Holo"
-        description="Aquaflora is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
-      ></Seo>
-      <AboutHeader></AboutHeader>
-      <AboutPage></AboutPage>
-      {/* <AboutGrid></AboutGrid> 
-      <AboutExtra></AboutExtra> */}
-    </Layout>
+    <div className="bg-darkBG min-h-screen w-full flex flex-col">
+      <Layout>
+        <Seo
+          title="About - Aquaflora"
+          description="Aquaflora is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        ></Seo>
+        <AboutHeader></AboutHeader>
+        <AboutPage></AboutPage>
+        {/* <AboutGrid></AboutGrid> 
+        <AboutExtra></AboutExtra> */}
+      </Layout>
+    </div>
   )
 }
 
