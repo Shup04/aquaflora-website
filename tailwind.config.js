@@ -33,6 +33,7 @@ module.exports = {
       dp: "#1e1e1e",
       gray: colors.gray,
       transparent: colors.transparent,
+      inputBG: "#444444",
     },
     screens: {
       //xxs: "320px",
