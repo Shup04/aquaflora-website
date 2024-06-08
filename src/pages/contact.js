@@ -28,7 +28,7 @@ const Contact = () => {
                 I will try to reply as soon as possible. I would love to hear from you.
               </p>
 
-              <form className="mt-5" name="contact" method="POST" netlify>
+              <form action="https://formspree.io/f/mwkggele" method="POST" className="mt-5" name="contact">
                 <div className="flex gap-5 flex-col md:flex-row">
                   <div className="sm:mr-5">
                     <label>
