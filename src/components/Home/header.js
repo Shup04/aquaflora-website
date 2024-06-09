@@ -25,7 +25,7 @@ const Header = () => {
 
             <EmailForm />
   
-            <div className="mt-5 sm:mt-8 sm:flex w-3/4 justify-center sm:justify-start">
+            <div className="mt-5 sm:mt-8 sm:flex lg:w-1/2 w-full justify-center sm:justify-start">
               <div className="rounded-md w-full">
                 <a
                   href="/features"

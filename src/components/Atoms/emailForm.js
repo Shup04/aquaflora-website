@@ -2,8 +2,8 @@ import React from 'react';
 
 export const EmailForm = () => {
   return (
-    <div className="mt-5 sm:mt-8 sm:flex justify-center sm:justify-start">
-      <form className="flex w-3/4 ">
+    <div className="mt-5 sm:mt-8 sm:flex justify-center w-full w-full sm:justify-start">
+      <form className="flex lg:w-3/4 w-full">
         <input
           type="email"
           placeholder="Enter your email"
