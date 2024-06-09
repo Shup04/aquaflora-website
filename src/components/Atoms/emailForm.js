@@ -3,7 +3,7 @@ import React from 'react';
 export const EmailForm = () => {
   return (
     <div className="mt-5 sm:mt-8 sm:flex justify-center sm:justify-start">
-      <form className="flex w-full max-w-md ">
+      <form className="flex w-3/4 ">
         <input
           type="email"
           placeholder="Enter your email"

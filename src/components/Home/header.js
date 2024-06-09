@@ -25,8 +25,8 @@ const Header = () => {
 
             <EmailForm />
   
-            <div className="mt-5 sm:mt-8 sm:flex justify-center sm:justify-start">
-              <div className="rounded-md">
+            <div className="mt-5 sm:mt-8 sm:flex w-3/4 justify-center sm:justify-start">
+              <div className="rounded-md w-full">
                 <a
                   href="/features"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
@@ -49,7 +49,7 @@ const Header = () => {
                   </svg>
                 </a>
               </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
+              <div className="mt-3 sm:mt-0 sm:ml-3 w-full">
                 <a
                   href="/about"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-primaryText hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
