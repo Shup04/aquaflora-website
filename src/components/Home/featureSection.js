@@ -8,7 +8,7 @@ import fishScreen from "../../images/AppImages/fishScreen.png"
 
 const FeatureSection = () => {
   return (
-    <div className=" max-w-7xl mx-auto">
+    <div className="my-50 max-w-7xl mx-auto">
       <div className=" sm:mt-0 max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="mb-25 justify-between mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col sm:flex-row gap-3 lg:flex-justify">
           
@@ -42,7 +42,7 @@ const FeatureSection = () => {
             </div>
             
 
-            <div className="mt-5 sm:mt-8 sm:flex md:justify-center lg:justify-end justify-end">
+            <div className="mt-5 mb-50 sm:mt-8 sm:flex md:justify-center lg:justify-end justify-end">
               <div className="rounded-md">
                 <a
                   href="/contact/"
