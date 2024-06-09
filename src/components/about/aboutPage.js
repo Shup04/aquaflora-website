@@ -9,7 +9,7 @@ const WorkPage = () => {
           About Aquaflora
         </h3>
 
-        <p className="text-primaryText  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-primaryText font-montserrat font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           The goal was initially to create a mobile app for managing tank reminders, 
           but it has since grown into a larger project. Now it is able to track water parameters as 
           you test, aswell as a list of more than 600 commonly kept aquarium fish species. There is alot 
@@ -25,7 +25,7 @@ const WorkPage = () => {
           About The Developer
         </h3>
 
-        <p className="text-primaryText  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-primaryText font-montserrat font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Most importantly, I am a hobbiest aquarist and have been for over 5 years. I 
           have kept a a variety of tanks with animals ranging from shrimp, snails, and fish, to frogs. 
           I am 20 years old, taking my bachelor in software engineering, and have been programming 
