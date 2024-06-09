@@ -22,6 +22,8 @@ const Header = () => {
                 That helps fish keepers manage notifications, water parameters, and more.
               </p>
             </div>
+
+            <EmailForm />
   
             <div className="mt-5 sm:mt-8 sm:flex justify-center sm:justify-start">
               <div className="rounded-md">
@@ -56,9 +58,6 @@ const Header = () => {
                 </a>
               </div>
             </div>
-            
-            <EmailForm /> {/* Add the EmailForm component here */}
-  
           </div>
   
           <div className="lg:inset-y-0 lg:right-0 xl:w-1/3 sm:w-2/5 my-0 flex justify-center lg:flex">
