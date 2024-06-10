@@ -5,9 +5,9 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav className="bg-transparent">
-      <div className="max-w-8xl mx-auto px-3 py-5 rounded-md">
-        <div className="flex items-center justify-between md:h-16 h-4">
-          <div className="w-full justify-between flex items-center">
+      <div className="bg-transparent max-w-8xl mx-auto px-3 py-5 rounded-md">
+        <div className="bg-transparent flex items-center justify-between md:h-16 h-4">
+          <div className="bg-transparent w-full justify-between flex items-center">
             <a
               className="text-primaryText flex-shrink-0 font-montserrat font-semibold"
               href="/"
@@ -64,17 +64,17 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="-mr-2 flex md:hidden">
+          <div className="bg-dp flex md:hidden">
             <button
               id="al"
               aria-label="Menu"
               onClick={() => setOpenMenu(!openMenu)}
-              className="text-gray-800 dark:text-white hover:text-primaryText-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+              className="bg-darkBG dark:text-white hover:text-primaryText-300 items-center justify-center p-2 focus:outline-none"
             >
               <svg
                 width="20"
                 height="20"
-                fill="black"
+                fill="grey"
                 className="h-8 w-8"
                 viewBox="0 0 1792 1792"
                 aria-hidden="true"
@@ -84,11 +84,12 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
+
         </div>
       </div>
       {openMenu && (
         <div className="transition duration-1000 ease-in-out md:hidden">
-          <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 transition duration-1000 ease-in-out">
+          <div className="md-px-2 bg-dp pt-2 pb-3 space-y-1 sm:px-3 transition duration-1000 ease-in-out">
             <a
               className="text-primaryText opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
               href="/"
