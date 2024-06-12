@@ -17,7 +17,7 @@ const Privacy = () => {
           title="Thanks - Aquaflora"
           description="Aquaflora is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
         ></Seo>
-        <div className="404-p">
+        <div className="404-p max-w-6xl gap-10">
 
         <h3 style={{lineHeight:1.2}} className="text-primaryText text-2xl lg:text-4xl font-bold text-gradient bg-gradient-to-r from-pink to-purple">
           AquaFlora Privacy Policy
