@@ -45,6 +45,7 @@ const Contact = () => {
                         placeholder="* Your Email"
                         type="email"
                         name="email"
+                        required
                       ></Input>
                     </label>
                   </div>
@@ -78,6 +79,7 @@ const Contact = () => {
                     placeholder="How can we help you?"
                     type="text"
                     name="Message"
+                    required
                   ></textarea>
                 </label>
                 <div>
