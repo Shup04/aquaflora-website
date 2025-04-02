@@ -4,6 +4,27 @@ import { EmailForm } from "../Atoms/emailForm.js"
 
 import hero from "../../images/AppImages/tanksScreen.png"
 
+const MailerLiteForm = () => {
+  useEffect(() => {
+    // Dynamically load the MailerLite script
+    const script = document.createElement('script');
+    script.src = 'https://assets.mailerlite.com/js/universal.js';
+    script.async = true;
+    script.onload = () => {
+      if (window.ml) {
+        window.ml('account', '771019'); // Initialize with your account ID
+      }
+    };
+
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup the script if the component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+}
+
 const Header = () => {
   return (
     <Fade duration={2200}>
@@ -24,6 +45,7 @@ const Header = () => {
             </div>
 
             <EmailForm />
+<div className="ml-embedded" data-form="RcGlOb"></div>
   
             <div className="mt-5 sm:mt-8 sm:flex lg:w-1/2 w-full justify-center sm:justify-start">
               <div className="rounded-md w-full">
