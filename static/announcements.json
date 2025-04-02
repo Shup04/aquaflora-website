@@ -1,7 +1,9 @@
 
 {
   "active": true,
-  "message": "Test Alert",
+  "title": "Test Alert",
+  "message": "This is just a test alert to test the new remote announcement functionality.",
   "link": "https://aquaflora.ca/",
-  "image": ""
+  "linkText": "Learn Some More",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEKZQSf2cOxtf4cMgLk0rqGHRARbjyo6yJUA&s"
 }
