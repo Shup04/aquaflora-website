@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import { EmailForm } from "../Atoms/emailForm.js"
-
+//import { EmailForm } from "../Atoms/emailForm.js"
+import MailerLiteForm from "../Atoms/MailerLiteForm";
 import hero from "../../images/AppImages/tanksScreen.png"
 
 const MailerLiteForm = () => {
@@ -44,8 +44,7 @@ const Header = () => {
               </p>
             </div>
 
-            <EmailForm />
-<div className="ml-embedded" data-form="RcGlOb"></div>
+              <MailerLiteForm/>
   
             <div className="mt-5 sm:mt-8 sm:flex lg:w-1/2 w-full justify-center sm:justify-start">
               <div className="rounded-md w-full">
