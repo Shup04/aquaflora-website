@@ -36,6 +36,7 @@ const MailerLiteForm = () => {
             <h4 className="text-2xl font-semibold">Sign Up</h4>
             <p className="text-sm">Signup for the AquaFlora mailing list.</p>
             <p className="text-sm">
+
               Please use the email that is linked to your google play account.
               <br />
             </p>
@@ -77,6 +78,7 @@ const MailerLiteForm = () => {
           className="ml-form-successBody row-success"
           style={{ display: "none" }}
         >
+
           <div className="ml-form-successContent text-primaryText">
             <h4 className="text-2xl font-semibold">Thank you!</h4>
             <p className="text-sm">
