@@ -32,10 +32,10 @@ const MailerLiteForm = () => {
     >
       <div className="ml-form-embedWrapper embedForm">
         <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
-          <div className="ml-form-embedContent">
-            <h4>Sign Up</h4>
-            <p>Signup for the AquaFlora mailing list.</p>
-            <p>
+          <div className="ml-form-embedContent text-primaryText mb-4">
+            <h4 className="text-2xl font-semibold">Sign Up</h4>
+            <p className="text-sm">Signup for the AquaFlora mailing list.</p>
+            <p className="text-sm">
               Please use the email that is linked to your google play account.
               <br />
             </p>
@@ -77,9 +77,11 @@ const MailerLiteForm = () => {
           className="ml-form-successBody row-success"
           style={{ display: "none" }}
         >
-          <div className="ml-form-successContent">
-            <h4>Thank you!</h4>
-            <p>You have successfully joined our subscriber list.</p>
+          <div className="ml-form-successContent text-primaryText">
+            <h4 className="text-2xl font-semibold">Thank you!</h4>
+            <p className="text-sm">
+              You have successfully joined our subscriber list.
+            </p>
           </div>
         </div>
       </div>
