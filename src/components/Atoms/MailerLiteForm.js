@@ -31,10 +31,9 @@ return (
       {/* blurred gradient glow */}
       <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 -left-3   /* nudge glow slightly left */
-                     rounded-3xl bg-gradient-to-br
-                     from-purple-500 via-indigo-500 to-cyan-400
-                     opacity-60 blur-[80px] z-0"
+          className="absolute -inset-2 -left-5 rounded-[28px]
++        bg-gradient-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70
++        opacity-80 blur-[120px] z-0"
       />
 
       {/* actual MailerLite container -------------------------------------- */}
@@ -49,7 +48,7 @@ return (
           <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
             {/* copy -------------------------------------------------------- */}
             <div className="ml-form-embedContent text-primaryText mb-6">
-              <h2 className="text-2xl font-semibold mb-1">
+              <h2 className="text-2xl font-semibold mb-2">
                 Join the AquaFlora mailing list
               </h2>
               <p className="text-sm font-montserrat text-neutral-400">
@@ -74,7 +73,7 @@ return (
                       name="fields[email]"
                       placeholder="Email address"
                       autoComplete="email"
-                      className="w-full h-12 px-4 rounded-lg font-montserrat
+                      className="w-full h-12 mb-4 px-4 rounded-lg font-montserrat
                                  bg-[#0d0d0d]/90 border border-[#222]
                                  text-white placeholder:opacity-60
                                  focus:border-purple focus:ring-0"
