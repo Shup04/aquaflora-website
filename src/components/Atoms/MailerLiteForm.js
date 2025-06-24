@@ -28,17 +28,15 @@ const MailerLiteForm = () => {
   return (
     <div
       id="mlb2-22055133"
-      className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-22055133"
+      className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-22055133
+             w-full max-w-xl rounded-2xl bg-[#141414]/80 backdrop-blur p-6 shadow-lg"
     >
       <div className="ml-form-embedWrapper embedForm">
         <div className="ml-form-embedBody ml-form-embedBodyDefault row-form rounded-lg border border-purple">
-          <div className="ml-form-embedContent text-primaryText mb-4">
-            <h4 className="text-2xl font-semibold">Sign Up</h4>
-            <p className="text-sm font-semibold">Signup for the AquaFlora mailing list.</p>
-            <p className="text-sm font-semibold">
-
-              Please use the email that is linked to your google play account.
-              <br />
+          <div className="ml-form-embedContent text-primaryText mb-6">
+            <h2 className="text-2xl font-semibold mb-1">Join the AquaFlora mailing list</h2>
+            <p className="text-sm text-neutral-400">
+              Please use the email linked to your Google Play account.
             </p>
           </div>
           <form
@@ -47,17 +45,19 @@ const MailerLiteForm = () => {
             method="post"
             target="_blank"
           >
-            <div className="ml-form-formContent">
+            <div className="ml-form-formContent mb-4">
               <div className="ml-form-fieldRow ml-last-item">
                 <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required">
                   <input
-                    aria-label="email"
+                    aria-label="Email address"
                     aria-required="true"
                     type="email"
-                    className="px-8 py-3 mb-8 font-montserrat rounded-lg bg-inputBG bg-opacity-20 border-transparent flex-1 appearance-none text-white focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent w-full"
                     name="fields[email]"
-                    placeholder="Email"
+                    placeholder="Email address"
                     autoComplete="email"
+                    className="w-full h-12 px-4 rounded-lg bg-[#0d0d0d]/90
+                               border border-[#222] text-white placeholder:opacity-60
+                               focus:border-purple focus:ring-0"
                   />
                 </div>
               </div>
@@ -66,7 +66,8 @@ const MailerLiteForm = () => {
             <div className="ml-form-embedSubmit">
               <button
                 type="submit"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-primaryText border border-purple hover:bg-transparent md:text-lg md:px-10"
+                className="w-full h-12 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500
+                           font-semibold tracking-wide transition hover:brightness-110"
               >
                 Subscribe
               </button>
@@ -75,7 +76,7 @@ const MailerLiteForm = () => {
           </form>
         </div>
         <div
-          className="ml-form-successBody row-success"
+          className="ml-form-successBody row-success rounded-2xl bg-[#141414]/80 p-6 shadow-lg"
           style={{ display: "none" }}
         >
 
