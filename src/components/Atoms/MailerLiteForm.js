@@ -27,21 +27,22 @@ const MailerLiteForm = () => {
 
 return (
     /* --- glow wrapper ---------------------------------------------------- */
-    <div className="relative w-full max-w-xl mx-auto">
+    <div className="relative w-full max-w-xl mr-auto overflow-visible">
       {/* blurred gradient glow */}
       <div
-        aria-hidden
-        className="absolute inset-0 rounded-2xl bg-gradient-to-r
-                   from-purple-500 via-indigo-500 to-cyan-400
-                   opacity-40 blur-lg"
+          aria-hidden
+          className="pointer-events-none absolute inset-0 -left-3   /* nudge glow slightly left */
+                     rounded-3xl bg-gradient-to-br
+                     from-purple-500 via-indigo-500 to-cyan-400
+                     opacity-60 blur-[80px] z-0"
       />
 
       {/* actual MailerLite container -------------------------------------- */}
       <div
         id="mlb2-22055133"
         className="relative z-10 ml-form-embedContainer ml-subscribe-form
-                   ml-subscribe-form-22055133 w-full rounded-2xl
-                   bg-[#141414]/80 backdrop-blur p-6"
+               ml-subscribe-form-22055133 w-full rounded-2xl
+               bg-[#141414]/70 backdrop-blur p-6"
       >
         <div className="ml-form-embedWrapper embedForm">
           {/* body ---------------------------------------------------------- */}
